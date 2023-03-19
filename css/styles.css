@@ -1,0 +1,142 @@
+/*
+Author: Cameron Smith
+Date: 3/14/23
+File Name: styles.css
+*/
+/*css reset*/
+body,header,nav,main,footer,h1,div,img,ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*style rules for body and img*/
+body{
+    background-color: #000;
+}
+img{
+    max-width: 25%;
+    display: block;
+}
+/*style rules for header*/
+header{
+    /*
+    background-color: #fff;
+    height: 250px;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 190px;
+}
+header img{
+    margin: 0 auto;
+}
+/*
+.container{
+    display: block;
+
+}
+.image{
+    max-width: 40%;
+    padding-left: 500px;
+    align-self: center;
+    float: center;
+    
+}
+
+.text{
+    float:center;
+    text-align: center;
+    
+}*/
+
+/*setup vertical navbar*/
+
+nav{
+    padding: 1%;
+    padding-top 100px;
+}
+nav ul{
+
+    float: right;
+    list-style-type: none;
+   
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    text-align: right;
+    margin-left: 200px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    margin-bottom: 380px;
+}
+nav li{
+    font-size: 1em;
+    font-family: 'Francois One', sans-serif;
+}
+nav li a{
+    display: block;
+    color: #000;
+    /*padding: 8px 16px;*/
+    padding: 0.5em 1em
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+}
+nav li a:hover{
+    background-color: #555;
+    color: white;
+}
+nav li:last-child{
+    border-bottom: none;
+}
+
+/*show mobileclass hide other class*/
+.mobile{
+    display: block;
+}
+.tablet-desktop{
+    display: none;
+}
+main{
+    background-color: #fff;
+    padding: 2%;
+    margin: 0 auto;
+    
+}
+main img{
+    max-width: 150px;
+}
+main h1{
+    font-size: .90em;
+    text-align: left:
+}
+main h2{
+    font-size: .80em;
+    text-align: left;
+}
+main h3{
+    font-size: .80em;
+    text-align: left;
+}
+main p{
+    font-size: .80em;
+    text-align: left;
+}
+
+footer p{
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+@media screen and (min-width: 1921px){
+    .mobile{
+        display: none;
+    }
+    #container{
+        width: 1920px;
+        margin: 0 auto;
+    }
+}

@@ -39,7 +39,8 @@ header {
 header img {
     margin: 0 auto;
 }
-.text{
+
+.text {
     color: orange;
 }
 
@@ -75,7 +76,7 @@ nav li a {
     display: block;
     color: #000;
     /*padding: 8px 16px;*/
-    padding: 0.5em 1em; 
+    padding: 0.5em 1em;
     text-decoration: none;
     border-bottom: 1px solid #555;
 }
@@ -112,7 +113,7 @@ main img {
 main h1 {
     font-size: 1.25em;
     text-align: left;
-    color:aqua;
+    color: aqua;
 }
 
 main h2 {
@@ -136,11 +137,13 @@ footer p {
     color: #fff;
     padding: 0 1em;
 }
+
 /* media query for desktop*/
 @media screen and (min-width: 769px) {
-    .mobile{
+    .mobile {
         display: block;
     }
+
     img {
         max-width: 50%;
         display: block;
@@ -166,7 +169,7 @@ footer p {
         max-width: 40%;
         padding-left: 500px;
         align-self: center;
-        
+
 
     }
 
@@ -179,7 +182,7 @@ footer p {
 
     nav {
         padding: 1%;
-        
+
     }
 
     nav ul {
@@ -232,7 +235,8 @@ footer p {
     main img {
         max-width: 50%;
     }
-    main h1{
+
+    main h1 {
         font-size: 2em;
         color: #39FF14;
     }

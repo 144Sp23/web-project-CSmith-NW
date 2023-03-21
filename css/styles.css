@@ -26,48 +26,27 @@ body {
 img {
     max-width: 25%;
     display: block;
+    border: 5px solid #d4af37;
 }
 
 /*style rules for header*/
 header {
-    /*
-    background-color: #fff;
-    height: 250px;*/
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-    background-color: #fff;
-    height: 190px;
+    background-color: #D3D3D3;
+    height: 210px;
 }
 
 header img {
     margin: 0 auto;
 }
-
-/*
-.container{
-    display: block;
-
-}
-.image{
-    max-width: 40%;
-    padding-left: 500px;
-    align-self: center;
-    float: center;
-    
-}
-
 .text{
-    float:center;
-    text-align: center;
-    
-}*/
+    color: orange;
+}
 
 /*setup vertical navbar*/
 
 nav {
     padding: 1%;
-    padding-top 100px;
 }
 
 nav ul {
@@ -84,7 +63,7 @@ nav ul {
     right: 0;
     bottom: 0;
     width: 150px;
-    margin-bottom: 380px;
+    margin-bottom: 280px;
 }
 
 nav li {
@@ -96,7 +75,8 @@ nav li a {
     display: block;
     color: #000;
     /*padding: 8px 16px;*/
-    padding: 0.5em 1em text-decoration: none;
+    padding: 0.5em 1em; 
+    text-decoration: none;
     border-bottom: 1px solid #555;
 }
 
@@ -130,8 +110,9 @@ main img {
 }
 
 main h1 {
-    font-size: .90em;
-    text-align: left:
+    font-size: 1.25em;
+    text-align: left;
+    color:aqua;
 }
 
 main h2 {
@@ -155,7 +136,7 @@ footer p {
     color: #fff;
     padding: 0 1em;
 }
-/* media query for 1920 desktop*/
+/* media query for desktop*/
 @media screen and (min-width: 769px) {
     .mobile{
         display: block;
@@ -167,14 +148,13 @@ footer p {
 
     /*style rules for header*/
     header {
-        background-color: #fff;
-        height: 250px;
-        background-color: #fff;
+        background-color: #808080;
+        height: 270px;
 
     }
 
     header img {
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .container {
@@ -186,12 +166,11 @@ footer p {
         max-width: 40%;
         padding-left: 500px;
         align-self: center;
-        float: center;
+        
 
     }
 
     .text {
-        float: center;
         text-align: center;
 
     }
@@ -200,7 +179,7 @@ footer p {
 
     nav {
         padding: 1%;
-        padding-top 100px;
+        
     }
 
     nav ul {
@@ -252,6 +231,10 @@ footer p {
 
     main img {
         max-width: 50%;
+    }
+    main h1{
+        font-size: 2em;
+        color: #39FF14;
     }
 
     footer p {
